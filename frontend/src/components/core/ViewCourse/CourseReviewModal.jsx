@@ -54,18 +54,18 @@ export default function CourseReviewModal({ setReviewModal }) {
     
     try {
       const success = await createRating(
-        {
-          courseId: courseEntireData._id,
-          rating: data.courseRating,
+      {
+        courseId: courseEntireData._id,
+        rating: data.courseRating,
           review: data.courseExperience.trim(),
-        },
-        token
-      )
+      },
+      token
+    )
       
       console.log("Review submission result:", success)
       
       if (success) {
-        setReviewModal(false)
+    setReviewModal(false)
       }
     } catch (error) {
       console.error("Error submitting review:", error)

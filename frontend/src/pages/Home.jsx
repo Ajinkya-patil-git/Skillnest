@@ -226,12 +226,12 @@ const Home = () => {
                             <div className='flex flex-row gap-7 text-white '>
                                 {/* Hide "Explore Full Catalog" for instructors */}
                                 {user?.accountType !== "Instructor" && (
-                                    <CTAButton active={true} linkto={"/signup"}>
-                                        <div className='flex items-center gap-3' >
-                                            Explore Full Catalog
-                                            <FaArrowRight />
-                                        </div>
-                                    </CTAButton>
+                                <CTAButton active={true} linkto={"/signup"}>
+                                    <div className='flex items-center gap-3' >
+                                        Explore Full Catalog
+                                        <FaArrowRight />
+                                    </div>
+                                </CTAButton>
                                 )}
                                 {!token && (
                                     <CTAButton active={false} linkto={"/signup"}>
