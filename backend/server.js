@@ -23,7 +23,13 @@ app.use(express.json()); // to parse json body
 app.use(cookieParser());
 app.use(
     cors({
-        origin: ["https://skillnest-v5p6-ph3cwclh0-ajinkyapa48-6393s-projects.vercel.app", "http://localhost:5173"],
+        origin: [
+            "https://skillnest-v5p6-ph3cwclh0-ajinkyapa48-6393s-projects.vercel.app",
+            "https://skillnest-front.vercel.app",
+            "https://skillnest-frontend.vercel.app",
+            "https://skillnest-data-oyfs4r9an-ajinkyapa48-6393s-projects.vercel.app",
+            "http://localhost:5173"
+        ],
         credentials: true,
         methods: ['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS'],
         allowedHeaders: ['Content-Type', 'Authorization', 'x-csrf-token'],
