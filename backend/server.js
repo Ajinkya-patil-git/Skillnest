@@ -28,6 +28,7 @@ app.use(
             "https://skillnest-front.vercel.app",
             "https://skillnest-frontend.vercel.app",
             "https://skillnest-data-oyfs4r9an-ajinkyapa48-6393s-projects.vercel.app",
+            "https://skillnest-back.vercel.app",
             "http://localhost:5173"
         ],
         credentials: true,
