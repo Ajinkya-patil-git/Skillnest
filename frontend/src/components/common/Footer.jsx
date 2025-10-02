@@ -154,6 +154,7 @@ const Footer = () => {
 
 
       {/* bottom footer */}
+      {/* Footer component updated */}
     </div>
   );
 };
