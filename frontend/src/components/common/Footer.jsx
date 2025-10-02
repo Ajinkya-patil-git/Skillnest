@@ -154,7 +154,6 @@ const Footer = () => {
 
 
       {/* bottom footer */}
-      {/* Removed as per user request: Made with ❤️, Aniruddha Gade, © 2023 Studynotion, and social links */}
     </div>
   );
 };
